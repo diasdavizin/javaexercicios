@@ -1,6 +1,6 @@
 package somar;
 import java.util.Scanner;
-public class Somar {
+public class exerc001 {
     public static void main(String[] args) {
         float n1,n2,soma;
         Scanner teclado=new Scanner(System.in);
@@ -15,8 +15,7 @@ public class Somar {
         
         //saida
         System.out.println("A soma dos numeros é: "+soma);
-    
-    
+   
     }
     
 }
