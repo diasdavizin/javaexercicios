@@ -18,5 +18,3 @@ public class Exer001T {
     }
     
 }
-	    
-
