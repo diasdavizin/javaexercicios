@@ -1,21 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package exerc001s;
-
-/**
- *
- * @author daviz
- */
+import java.util.Scanner;
 public class Exerc001S {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        //variaveis
+        double salario,salarionovo,aumento;
+        Scanner teclado=new Scanner (System.in);
+
+                
+        //entrada de dados
+        System.out.println("Digite seu salário: ");
+        salario=teclado.nextDouble();
+        
+        //processamentos
+        if (salario>=1000){
+        salarionovo=salario+(salario*0.10);
+        System.out.println("O valor do seu salário é de: "+salarionovo);
+        
+        }else { 
+        salarionovo=salario+(salario*0.35);
+        System.out.println("O valor do seu salário é de:  "+salarionovo);
+        
+        }
+        }    
     }
-    
-}
