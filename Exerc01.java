@@ -22,4 +22,4 @@ public class Exerc01 {
             System.out.println("A soma de A + B é menor.");
         }
     }
-} 
+}
