@@ -4,7 +4,7 @@ public class Exerc001S {
     public static void main(String[] args) {
         
         //variaveis
-        double salario,salarionovo,aumento;
+        double salario,salarionovo;
         Scanner teclado=new Scanner (System.in);
 
                 
