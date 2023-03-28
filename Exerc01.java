@@ -8,13 +8,13 @@ public class Exerc01 {
         Scanner teclado=new Scanner(System.in);
         
         //entrada de dados
-        System.out.println("Digite o valor de A: ");
+        System.out.print("Digite o valor de A: ");
         a=teclado.nextFloat();
         
-        System.out.println("Digite o valor de B: ");
+        System.out.print("Digite o valor de B: ");
         b=teclado.nextFloat();
         
-        System.out.println("Digite o valor de C: ");
+        System.out.print("Digite o valor de C: ");
         c=teclado.nextFloat();
         
         //processamento
